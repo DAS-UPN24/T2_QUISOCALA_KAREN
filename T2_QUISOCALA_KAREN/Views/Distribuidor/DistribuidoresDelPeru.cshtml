@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "DistribuidoresDelPeru";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Distribuidores del Perú</h1>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Distribuidores más Conocidos en el Perú</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffcccc; 
+        }
+
+        .distribuidor {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+            .distribuidor img {
+                width: 100px;
+                height: auto;
+                margin-right: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Distribuidores más Conocidos en el Perú</h1>
+
+        <div class="distribuidor">
+            <img src="https://i.ytimg.com/vi/DeekLuSHqPg/maxresdefault.jpg" alt="Logo Grupo Romero">
+            <div>
+                <h3>Grupo Romero</h3>
+                <p>El Grupo Romero es uno de los conglomerados empresariales más grandes y diversificados de Perú, con actividades en sectores como agroindustria, pesca, logística, energía y más.</p>
+            </div>
+        </div>
+
+        <div class="distribuidor">
+            <img src="https://construex.com.ec/images/upload/454/org/5a78c79a1e91c4.63525038.png" alt="Logo UNACEM">
+            <div>
+                <h3>UNACEM</h3>
+                <p>UNACEM es una de las principales empresas cementeras del Perú, que produce y distribuye cemento, agregados y concreto para el sector de la construcción en el país.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

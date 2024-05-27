@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "DistribuidoresDelMundo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Distribuidores del Mundo</h1>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Distribuidores más Conocidos en el Mundo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #b3e0ff; /*fr*/
+        }
+
+        .distribuidor {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff; /*fb*/
+        }
+
+            .distribuidor img {
+                width: 100px;
+                height: auto;
+                margin-right: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Distribuidores más Conocidos en el Mundo</h1>
+
+        <div class="distribuidor">
+            <img src="https://www.stockinvestor.com/wp-content/uploads/walmart-store-front_129826456676858078.jpg" alt="Logo Walmart">
+            <div>
+                <h3>Walmart</h3>
+                <p>Walmart es una de las empresas más influyentes del mundo, conocida por su capacidad para ofrecer productos a precios competitivos y su extensa red de distribución global.</p>
+            </div>
+        </div>
+
+        <div class="distribuidor">
+            <img src="https://nypost.com/wp-content/uploads/sites/2/2020/04/amazon-feature.jpg?quality=90&strip=all&w=744" alt="Logo Amazon">
+            <div>
+                <h3>Amazon</h3>
+                <p>Amazon es una de las empresas más influyentes y diversificadas del mundo, conocida por su enfoque en la innovación, la eficiencia y la satisfacción del cliente. Su capacidad para reinventarse continuamente ha consolidado su posición como un líder en múltiples sectores, desde el comercio electrónico hasta la tecnología y la logística.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
